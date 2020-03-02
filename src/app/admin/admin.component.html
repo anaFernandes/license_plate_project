@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="header"><h1> {{header}} </h1></div>
+  <div class="title"><h2>{{title}}</h2></div>
+  <div class="vehicle-information">
+    <div class="content">
+      <div class="vehicle-menu" *ngFor= "let vehicle of vehicleList">
+        <div class="vehicle">
+          License Plate: {{vehicle?.licensePlate}}
+        </div>
+      </div>
+    </div>
+      <div class="vehicle-form">
+        <app-vehicle-create (vehiclesEmitter)="vehicleEmite($event)"></app-vehicle-create>
+      </div>
+  </div>
+</div>

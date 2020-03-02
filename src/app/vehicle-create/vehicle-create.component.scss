@@ -1,0 +1,58 @@
+.content-vehicle {
+  display: flex;
+  border: solid #D0D2D6;
+
+  .form {
+    .control-label{
+      padding: 0.5vw;
+      display: inline-block;
+      width: 13vw;
+      @extend %font-base;
+      font-size: 1.5vw;
+    }
+
+    input {
+      border: none;
+      background-color: #FAFAFA;
+      font-size: 1.5vw;
+      width: 45vw;
+    }
+    .add-btn{
+      background-color: #65b312;
+      margin-bottom: 1vw;
+     }
+  }
+}
+
+.submit {
+  .submit-btn {
+    float: right;
+    background-color: #0074b3;
+    margin: 1vw;
+  }
+}
+
+P {
+  @extend %font-base;
+  font-size: 1.2vw;
+}
+
+button {
+  font-family: 'Lato';
+  color: #FAFAFA;
+  border-radius: 0.5vw;
+  border: none;
+  color: white;
+  padding: 0.2vh 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3vw;
+  margin: 0.3vw 1vw;
+  cursor: pointer;
+}
+
+%font-base {
+  font-family: 'Lato';
+  color: #283645;
+}

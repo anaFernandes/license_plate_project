@@ -1,0 +1,55 @@
+.container {
+  .header {
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      @extend %font-base;
+      font-size: 3vw;
+    }
+  }
+
+  .title {
+    border-color: #D0D2D6;
+    border-style: solid none;
+    h2 {
+      text-align: center;
+      @extend %font-base;
+      font-size: 2vw;
+    }
+  }
+
+  .vehicle-information {
+      display: flex;
+      align-items: stretch;
+      .content {
+        height: 80vh;
+        width: 30vw;
+        border-color: #D0D2D6;
+        border-style: none solid none none;
+      .vehicle-menu {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        .vehicle {
+          padding-left: 0.5vw;
+          font-size: 1.5vw;
+          flex-direction: column;
+          border-color: #D0D2D6;
+          border-style: none none solid none;
+        }
+      }
+    }
+      .vehicle-form {
+        margin: 1vw 2vw;
+        display: flex;
+        flex-direction: row;
+        width: 60vw;
+      }
+    }
+  }
+
+  %font-base {
+    font-family: 'Lato';
+    color: #283645;
+  }
