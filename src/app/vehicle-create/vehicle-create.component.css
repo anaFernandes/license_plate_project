@@ -1,0 +1,47 @@
+.content-vehicle {
+  display: flex;
+  border: solid #d0d2d6;
+}
+.content-vehicle .form .control-label {
+  padding: 0.5vw;
+  display: inline-block;
+  width: 13vw;
+  font-size: 1.5vw;
+}
+.content-vehicle .form input {
+  border: none;
+  background-color: #fafafa;
+  font-size: 1.5vw;
+  width: 45vw;
+}
+.content-vehicle .form .add-btn {
+  background-color: #65b312;
+  margin-bottom: 1vw;
+}
+.submit .submit-btn {
+  float: right;
+  background-color: #0074b3;
+  margin: 1vw;
+}
+p {
+  font-size: 1.2vw;
+}
+button {
+  font-family: "Lato";
+  color: #fafafa;
+  border-radius: 0.5vw;
+  border: none;
+  color: white;
+  padding: 0.2vh 1vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3vw;
+  margin: 0.3vw 1vw;
+  cursor: pointer;
+}
+.content-vehicle .form .control-label,
+p {
+  font-family: "Lato";
+  color: #283645;
+}

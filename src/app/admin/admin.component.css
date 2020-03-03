@@ -1,0 +1,48 @@
+.container .header {
+  text-align: center;
+}
+.container .header h1 {
+  text-align: center;
+  font-size: 3vw;
+}
+.container .title {
+  border-color: #d0d2d6;
+  border-style: solid none;
+}
+.container .title h2 {
+  text-align: center;
+  font-size: 2vw;
+}
+.container .vehicle-information {
+  display: flex;
+  align-items: stretch;
+}
+.container .vehicle-information .content {
+  height: 100vh;
+  width: 30vw;
+  border-color: #d0d2d6;
+  border-style: none solid none none;
+}
+.container .vehicle-information .content .vehicle-menu {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+.container .vehicle-information .content .vehicle-menu .vehicle {
+  padding-left: 0.5vw;
+  font-size: 1.5vw;
+  flex-direction: column;
+  border-color: #d0d2d6;
+  border-style: none none solid none;
+}
+.container .vehicle-information .vehicle-form {
+  margin: 1vw 2vw;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+}
+.container .header h1,
+.container .title h2 {
+  font-family: "Lato";
+  color: #283645;
+}

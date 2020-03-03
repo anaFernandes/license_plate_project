@@ -59,23 +59,20 @@ export class VehicleCreateComponent implements OnInit {
       ///If the current year, month or day is greater than the year, month or from 2 days
       if(currentDate[3] > date[3] || currentMonth > month || parseInt(currentDate[2]) > parseInt(date[2]) + 2 ) {
         this.addSessionStore();
-        this.setVisibility('hidden');
 
       //If the current month and year is equal of the month in sessionStorage
       } if(currentDate[3] === date[3] && currentMonth === month) {
           // and the current day also the same
           if(currentDate[2] === date[2]  && parseInt(currentHours[0]) >= parseInt(hours[0]) + 2) {
             this.addSessionStore();
-            this.setVisibility('hidden');
           }
           if(parseInt(currentDate[3]) === parseInt(date[3]) + 1 && parseInt(currentHours[0]) >= parseInt(hours[0]) + 24){
             this.addSessionStore();
-            this.setVisibility('hidden');
           }
     } } else {
       this.addSessionStore();
-      this.setVisibility('hidden');
     }
+    this.setVisibility('hidden');
     this.vehicleEmite();
   }
 

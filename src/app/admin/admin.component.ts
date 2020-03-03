@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { monthConst } from './../shared/months-const';
 
 @Component({
   selector: 'app-admin',
